@@ -1,4 +1,4 @@
-# grunt-loopback-sdk-angular
+# grunt-loopback-sdk-fetch-factory
 
 **NOTE: The grunt-loopback-sdk-angular module supersedes [grunt-loopback-angular](https://www.npmjs.org/grunt-loopback-angular). Please update your package.json and Gruntfile accordingly.**
 

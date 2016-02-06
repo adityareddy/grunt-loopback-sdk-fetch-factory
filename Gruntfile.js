@@ -30,7 +30,7 @@ module.exports = function(grunt) {
     },
 
     // Configuration to be run (and then tested).
-    loopback_sdk_angular: {
+    loopback_sdk_fetch_factory: {
       options: {
         input: 'test/fixtures/app.js'
       },
@@ -64,7 +64,7 @@ module.exports = function(grunt) {
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
-  grunt.registerTask('test', ['clean', 'loopback_sdk_angular', 'nodeunit']);
+  grunt.registerTask('test', ['clean', 'loopback_sdk_fetch_factory', 'nodeunit']);
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['jshint', 'test']);

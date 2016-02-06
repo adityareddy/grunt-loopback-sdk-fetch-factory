@@ -1,19 +1,18 @@
 {
-  "name": "grunt-loopback-sdk-angular",
-  "description": "Grunt plugin for auto-generating Angular $resource services for LoopBack",
-  "version": "1.1.2",
-  "homepage": "https://github.com/strongloop/grunt-loopback-sdk-angular",
+  "name": "grunt-loopback-sdk-fetch-factory",
+  "description": "Grunt plugin for auto-generating fetch factory services for LoopBack",
+  "version": "0.0.3",
+  "homepage": "https://github.com/adityareddy/grunt-loopback-sdk-fetch-factory",
   "author": {
-    "name": "StrongLoop, Inc.",
-    "email": "callback@strongloop.com",
-    "url": "http://strongloop.com/"
+    "name": "Aditya Reddy",
+    "email": "p.aditya.reddi@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/strongloop/grunt-loopback-sdk-angular.git"
+    "url": "git://github.com/adityareddy/grunt-loopback-sdk-fetch-factory.git"
   },
   "bugs": {
-    "url": "https://github.com/strongloop/grunt-loopback-sdk-angular/issues"
+    "url": "https://github.com/adityareddy/grunt-loopback-sdk-fetch-factory/issues"
   },
   "license": "MIT",
   "engines": {
@@ -23,7 +22,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "loopback-sdk-angular": "^1.2.0"
+    "loopback-sdk-fetch-factory": "*"
   },
   "devDependencies": {
     "chai": "^1.9.1",
@@ -40,7 +39,7 @@
   },
   "keywords": [
     "gruntplugin",
-    "angular",
+    "fetch",
     "loopback"
   ]
 }

@@ -1,6 +1,6 @@
 /*
- * grunt-loopback-sdk-angular
- * https://github.com/strongloop/grunt-loopback-sdk-angular
+ * grunt-loopback-sdk-fetch-factory
+ * https://github.com/strongloop/grunt-loopback-sdk-fetch-factory
  *
  * Copyright (c) 2014 StrongLoop, Inc.
  * Licensed under the MIT license.
@@ -9,7 +9,7 @@
 'use strict';
 
 var path = require('path');
-var generator = require('loopback-sdk-angular');
+var generator = require('loopback-sdk-fetch-factory');
 
 module.exports = function(grunt) {
 
@@ -17,8 +17,8 @@ module.exports = function(grunt) {
   // creation: http://gruntjs.com/creating-tasks
 
   grunt.registerMultiTask(
-    'loopback_sdk_angular',
-    'Grunt plugin for auto-generating Angular $resource services for LoopBack',
+    'loopback_sdk_fetch_factory',
+    'Grunt plugin for auto-generating fetch methods for LoopBack',
     runTask);
 
   function runTask() {
@@ -60,6 +60,6 @@ module.exports = function(grunt) {
 
     grunt.file.write(options.output, script);
 
-    grunt.log.ok('Generated Angular services file %j', options.output);
+    grunt.log.ok('Generated Fetch methods file %j', options.output);
   }
 };
